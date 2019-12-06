@@ -1,0 +1,5905 @@
+{
+  "name": "Eidiko-support-Bot",
+  "intents": [
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "abode"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "arcade"
+        },
+        {
+          "text": "wakeup"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "apply_card",
+      "examples": [
+        {
+          "text": "I want to apply for a card"
+        }
+      ],
+      "description": "applying for a card"
+    },
+    {
+      "intent": "apply_for_account",
+      "examples": [
+        {
+          "text": "I want to have an account"
+        },
+        {
+          "text": "I want to create a bank account"
+        }
+      ],
+      "description": "Create an account initializing"
+    },
+    {
+      "intent": "bad_words",
+      "examples": [
+        {
+          "text": "lanjodka"
+        },
+        {
+          "text": "badacow"
+        },
+        {
+          "text": "badcow"
+        },
+        {
+          "text": "badkaw"
+        }
+      ],
+      "description": "any offence"
+    },
+    {
+      "intent": "dumb",
+      "examples": [
+        {
+          "text": "you dumb"
+        },
+        {
+          "text": "why are you so dumb"
+        }
+      ],
+      "description": "if user says bot is dumb"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "types_of_bank_accounts_question",
+      "examples": [
+        {
+          "text": "do you provide current account"
+        },
+        {
+          "text": "Do you provide savings account"
+        },
+        {
+          "text": "do you provide FD accounts"
+        },
+        {
+          "text": "do you provide fixed depost account"
+        },
+        {
+          "text": "what types of accounts provided"
+        },
+        {
+          "text": "which types of account do your bank provide"
+        },
+        {
+          "text": "can I know which types of account do u provide"
+        }
+      ],
+      "description": "types of accounts"
+    },
+    {
+      "intent": "hi",
+      "examples": [
+        {
+          "text": "hey"
+        },
+        {
+          "text": "ey"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "heeyy"
+        }
+      ],
+      "description": "starting the conversation"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "can I know who is this"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Introduce your self",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Let us talk about you",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                12,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me about your life",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                8,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Where were you born?",
+          "mentions": [
+            {
+              "entity": "dob",
+              "location": [
+                6,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How old are you?",
+          "mentions": [
+            {
+              "entity": "age",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you know who you are?",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                16,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About you",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                6,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tell me something about yourself",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                24,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Who are you?",
+          "mentions": [
+            {
+              "entity": "about",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "i need validate my tan number"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "capital_of_country",
+      "examples": [
+        {
+          "text": "what is the capital of india"
+        },
+        {
+          "text": "what is the capital"
+        }
+      ],
+      "description": "If user asks what is the capital of country"
+    },
+    {
+      "intent": "exit",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "leave"
+        }
+      ],
+      "description": "Leaving the conversation"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Ok thank you"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "IsSingle",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "single",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "joint",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "catagory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "individual",
+          "synonyms": [
+            "single"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non-individual",
+          "synonyms": [
+            "group"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "intrest",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nothing",
+          "synonyms": [
+            "I will think about it later",
+            "I am thinking",
+            "seeing it"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "acountnumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "acountnumber",
+          "patterns": [
+            "\\d{11}"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "accountType",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "savings",
+          "synonyms": [
+            "savings",
+            "savings account"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "current",
+          "synonyms": [
+            "current",
+            "current account"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "childeren",
+          "synonyms": [
+            "Child",
+            "Childrens account",
+            "child account",
+            "Kids",
+            "kids account"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Joint",
+          "synonyms": [
+            "Joint Account"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "test",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "acdfr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "qwerty",
+          "synonyms": [
+            "qwerty"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "asdfgh",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "IsaccountExist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "newUser",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "existingUser",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "aadhar",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "aadhar",
+          "patterns": [
+            "\\d{12}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dob",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "were ",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "customer_ID",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cust_id",
+          "patterns": [
+            "\\d{8}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Minorcheck",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "partnership",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "club",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "regular",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "association",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "junior",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "srujana",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nanu vodilesthunava",
+          "synonyms": [
+            "vodilesthunava",
+            "dengesthunava"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thinava ra",
+          "synonyms": [
+            "thintivanee"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "age",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "old ",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "credit_card_family",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Premium cards",
+          "synonyms": [
+            "Premium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Co-branded cards",
+          "synonyms": [
+            "co branded",
+            "branded",
+            "co-branded"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prepaid Credit Cards",
+          "synonyms": [
+            "prepaid",
+            "Pre paid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prepaid Cards",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CashBack cards",
+          "synonyms": [
+            "cashback"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Commercial cards",
+          "synonyms": [
+            "commercial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "regular cards",
+          "synonyms": [
+            "regular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Secured Cards",
+          "synonyms": [
+            "secure",
+            "secured"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mobile",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "@sys-number",
+          "patterns": [
+            "\\d{10}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "riyazd",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "riyaza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "riyazb",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "about",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "your ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "you ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "are ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Describe ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "about ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yourself",
+          "synonyms": []
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "skill_id": "bd0907c4-1ba7-4600-b5ce-aa73bccae2d6",
+  "description": "eidiko bot for opening all types of accounts",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_68_1564064042428",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_72_1564064042429",
+      "previous_sibling": "handler_71_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_68_1564064042428",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_70_1564064042428",
+      "previous_sibling": "handler_69_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_68_1564064042428",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_71_1564064042428",
+      "previous_sibling": "handler_70_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_68_1564064042428",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_69_1564064042428"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_33_1564063902755",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_47_1564063902755",
+      "previous_sibling": "slot_42_1564063902755"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_33_1564063902755",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_37_1564063902755",
+      "previous_sibling": "slot_34_1564063902755"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_33_1564063902755",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_34_1564063902755",
+      "previous_sibling": "node_50_1564063902755"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_33_1564063902755",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_42_1564063902755",
+      "previous_sibling": "slot_37_1564063902755"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_33_1564063902755",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_50_1564063902755"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_62_1564063320281",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_68_1564063320281",
+      "previous_sibling": "slot_63_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_62_1564063320281",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_63_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_21_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_25_1564063835190",
+      "previous_sibling": "handler_24_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_21_1564063835190",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_23_1564063835190",
+      "previous_sibling": "handler_22_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_21_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_24_1564063835190",
+      "previous_sibling": "handler_23_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_21_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_22_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_30_1564062995141",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_32_1564062995141",
+      "previous_sibling": "handler_31_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_30_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_33_1564062995141",
+      "previous_sibling": "handler_32_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_30_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_34_1564062995141",
+      "previous_sibling": "handler_33_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_30_1564062995141",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_31_1564062995141"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1563877736196",
+      "variable": "$person",
+      "dialog_node": "slot_3_1563877895180",
+      "previous_sibling": "node_1_1564047529892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1563877736196",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_6_1563877927779",
+      "previous_sibling": "slot_3_1563877895180"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1563877736196",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_11_1563878238011",
+      "previous_sibling": "slot_6_1563877927779"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1563877736196",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_2_1564047559545",
+      "previous_sibling": "slot_11_1563878238011"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1563877736196",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1564047529892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_80_1564063718469",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_82_1564063718469",
+      "previous_sibling": "handler_81_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_80_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_83_1564063718469",
+      "previous_sibling": "handler_82_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_80_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_84_1564063718469",
+      "previous_sibling": "handler_83_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_80_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_81_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_65_1564064042428",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_67_1564064042428",
+      "previous_sibling": "handler_66_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_65_1564064042428",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_66_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_77_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_79_1564063718469",
+      "previous_sibling": "handler_78_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_77_1564063718469",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_78_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_2_1564047559545",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1564047559545",
+      "previous_sibling": "handler_3_1564047559545"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1564047559545",
+      "context": {
+        "credit_card_family": "@credit_card_family:(regular cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(regular cards)",
+      "event_name": "input",
+      "dialog_node": "handler_3_1564047559545"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1564063835190",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_26_1564063835190",
+      "previous_sibling": "slot_21_1564063835190"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_20_1564063835190",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_21_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_42_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_46_1564063902755",
+      "previous_sibling": "handler_45_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_42_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_45_1564063902755",
+      "previous_sibling": "handler_44_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_42_1564063902755",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_44_1564063902755",
+      "previous_sibling": "handler_43_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_42_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_43_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_57_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_60_1564063902755",
+      "previous_sibling": "handler_59_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_57_1564063902755",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_59_1564063902755",
+      "previous_sibling": "handler_58_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_57_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_61_1564063902755",
+      "previous_sibling": "handler_60_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_57_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_58_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_52_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_55_1564063902755",
+      "previous_sibling": "handler_54_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_52_1564063902755",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_54_1564063902755",
+      "previous_sibling": "handler_53_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_52_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_56_1564063902755",
+      "previous_sibling": "handler_55_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_52_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_53_1564063902755"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_43_1564063320279",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_73_1564063320281",
+      "previous_sibling": "node_62_1564063320281"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_43_1564063320279",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_62_1564063320281",
+      "previous_sibling": "node_44_1564063320281"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_43_1564063320279",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_44_1564063320281"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1573233619822",
+      "dialog_node": "slot_2_1573234219567"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_47_1564063902755",
+      "context": {
+        "credit_card_family": "@credit_card_family:(Secured Cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(Secured Cards)",
+      "event_name": "input",
+      "dialog_node": "handler_49_1564063902755",
+      "previous_sibling": "handler_48_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_47_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_48_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_45_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_47_1564063320281",
+      "previous_sibling": "handler_46_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_45_1564063320281",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_46_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_6_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1564063835190",
+      "previous_sibling": "handler_8_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_6_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1564063835190",
+      "previous_sibling": "handler_9_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1564063835190",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1564063835190",
+      "previous_sibling": "handler_7_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_6_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1564063835190"
+    },
+    {
+      "type": "standard",
+      "title": "regular card not intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to know about different cards"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1563877252076",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_19_1563880453033",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1563877736196"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1563877252076",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_33_1563880995395",
+      "previous_sibling": "node_19_1563880453033"
+    },
+    {
+      "type": "frame",
+      "title": "regularcard intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "hi     $result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1563877252076",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_2_1563877736196",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1564062995141",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_35_1564062995141",
+      "previous_sibling": "slot_30_1564062995141"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_29_1564062995141",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_30_1564062995141"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_11_1564062995140",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_15_1564062995140",
+      "previous_sibling": "slot_12_1564062995140"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_11_1564062995140",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_20_1564062995141",
+      "previous_sibling": "slot_15_1564062995140"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_11_1564062995140",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_25_1564062995141",
+      "previous_sibling": "slot_20_1564062995141"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_11_1564062995140",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_12_1564062995140",
+      "previous_sibling": "node_28_1564062995141"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_11_1564062995140",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_28_1564062995141",
+      "previous_sibling": "node_4_1573552355368"
+    },
+    {
+      "type": "standard",
+      "title": "results",
+      "parent": "node_11_1564062995140",
+      "dialog_node": "node_4_1573552355368"
+    },
+    {
+      "type": "standard",
+      "title": "commercial cards",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you want to use a card for business-related expenses, a commercial card is ideal. Achieve savings on your business travels and expenses and easily manage payments for your purchases. For large companies, corporate cards offer additional benefits and tools such as 24x7 MIS, spend analysis and seamless accounting. Examples of EIDIKO Bank Business Credit Cards are Business MoneyBack and Corporate Platinum."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(Commercial cards)",
+      "dialog_node": "node_75_1564063718467",
+      "previous_sibling": "node_43_1564063320279"
+    },
+    {
+      "type": "standard",
+      "title": "Premium card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As your income and needs increase, you can upgrade to a premium card like the EIDIKO Bank Visa Signature Credit Card. A premium card gives you higher credit limits, more magnificent Reward Points and more benefits. It also provides some lifestyle-related benefits such as free lounge access at airports. This is particularly useful if you are a frequent flyer and spent a lot of time in airports."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(Premium cards)",
+      "dialog_node": "node_10_1564062995138",
+      "previous_sibling": "node_1_1563877252076"
+    },
+    {
+      "type": "standard",
+      "title": "Cash back Card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Money back or Cash Back Cards allow you to earn cash back on your everyday spends. These cash back are in the form of rewards which you can use to settle the outstanding amount on your Credit Card. In addition to cash back, you also receive benefits such as shopping and dining discounts. Platinum Edge and Money Back are examples of cashback cards."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(CashBack cards)",
+      "dialog_node": "node_1_1564063835187",
+      "previous_sibling": "node_75_1564063718467"
+    },
+    {
+      "type": "standard",
+      "title": "Prepaid cards",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Among the different Credit Cards is the Prepaid Card. This can come in handy in some situations. For example, if you want your child to have a card, but want to contain spending within a specific limit, you could give him/ her a prepaid Credit Card. Companies can use these kinds of cards for their employees to meet everyday business expenses. Examples of this kind of card include MoneyPlus Dependent GPR Card, GPR Card, MoneyPlus Card and FoodPlus Card."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(Prepaid Cards)",
+      "dialog_node": "node_63_1564064042426",
+      "previous_sibling": "node_32_1564063902754"
+    },
+    {
+      "type": "standard",
+      "title": "co-branded card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Co-branded cards are great when you have a specific type of usage. For example, if you are a frequent traveller, a Jetprivilege EIDIKO Bank Signature Card can be a great companion on your travels. You can get exclusive benefits like extra air miles, discounts on flights, dedicated check-in counters, extra baggage allowance and free lounge access. You can even redeem your miles for free flights. Other co-branded cards include Maruti Suzuki NEXA EIDIKO Bank AllMiles (car-related privileges), Platinum Times Card (discounts on entertainment), and Snapdeal EIDIKO Bank Card (online benefits)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(Co-branded cards)",
+      "dialog_node": "node_43_1564063320279",
+      "previous_sibling": "node_10_1564062995138"
+    },
+    {
+      "type": "standard",
+      "title": "Secured Card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are some basic requirements that you must fulfil to get a Credit Card, like reasonable income and a decent credit score. Sometimes some people are unable to meet these requirements but would still need a Credit Card. There are some kinds of Credit Cards that are meant for this type of customers – one of them is a Secured Card. A Secured Card needs collateral, like a loan. You can open a Fixed Deposit in the bank to get such a Secured Credit Card. The FD will then be used as collateral. You may not even have to offer income proof to get such a card."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(Secured Cards)",
+      "dialog_node": "node_32_1564063902754",
+      "previous_sibling": "node_1_1564063835187"
+    },
+    {
+      "type": "standard",
+      "title": "Regular card",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Among the different kinds of Credit Card is the regular card -- like the Eidiko Bank Platinum Plus Credit Card. It’s great as your first Credit Card. It offers all the convenience and safety of a Credit Card and combines it with benefits like Reward Points and fuel surcharge waivers. There are also three free add-on cards, which you can give to your spouse, adult children, parents, brothers or sisters."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Are you interested in taking this caard",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "will see later",
+                "value": {
+                  "input": {
+                    "text": "exit"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1563808174219",
+      "metadata": {},
+      "conditions": "@credit_card_family:(regular cards)",
+      "dialog_node": "node_1_1563877252076"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_12_1564062995140",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_14_1564062995140",
+      "previous_sibling": "handler_13_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1564062995140",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_13_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_58_1564063320281",
+      "context": {
+        "credit_card_family": "@credit_card_family:(Co-branded cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(Co-branded cards)",
+      "event_name": "input",
+      "dialog_node": "handler_60_1564063320281",
+      "previous_sibling": "handler_59_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_58_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_59_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_78_1564064042429",
+      "context": {
+        "credit_card_family": "@credit_card_family:(Prepaid Cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(Prepaid Cards)",
+      "event_name": "input",
+      "dialog_node": "handler_80_1564064042429",
+      "previous_sibling": "handler_79_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_78_1564064042429",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_79_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1564063835190",
+      "context": {
+        "credit_card_family": "@credit_card_family:(CashBack cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(CashBack cards)",
+      "event_name": "input",
+      "dialog_node": "handler_18_1564063835190",
+      "previous_sibling": "handler_17_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_16_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_90_1564063718469",
+      "context": {
+        "credit_card_family": "@credit_card_family:(Commercial cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(Commercial cards)",
+      "event_name": "input",
+      "dialog_node": "handler_92_1564063718469",
+      "previous_sibling": "handler_91_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_90_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_91_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_63_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_66_1564063320281",
+      "previous_sibling": "handler_65_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_63_1564063320281",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_65_1564063320281",
+      "previous_sibling": "handler_64_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_63_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_67_1564063320281",
+      "previous_sibling": "handler_66_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_63_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_64_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_73_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_77_1564064042429",
+      "previous_sibling": "handler_76_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_73_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_76_1564064042429",
+      "previous_sibling": "handler_75_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_73_1564064042429",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_75_1564064042429",
+      "previous_sibling": "handler_74_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_73_1564064042429",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_74_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_100_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_104_1564063718469",
+      "previous_sibling": "handler_103_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_100_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_103_1564063718469",
+      "previous_sibling": "handler_102_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_100_1564063718469",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_102_1564063718469",
+      "previous_sibling": "handler_101_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_100_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_101_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_15_1564062995140",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_19_1564062995141",
+      "previous_sibling": "handler_18_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_15_1564062995140",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_18_1564062995140",
+      "previous_sibling": "handler_17_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1564062995140",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_17_1564062995140",
+      "previous_sibling": "handler_16_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_15_1564062995140",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_16_1564062995140"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_75_1564063718467",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_94_1564063718469",
+      "previous_sibling": "node_76_1564063718468"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1564063718467",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_105_1564063718469",
+      "previous_sibling": "node_94_1564063718469"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_75_1564063718467",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_76_1564063718468"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1564063835190",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_11_1564063835190",
+      "previous_sibling": "slot_6_1564063835190"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1564063835190",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_16_1564063835190",
+      "previous_sibling": "slot_11_1564063835190"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1564063835190",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_6_1564063835190",
+      "previous_sibling": "slot_3_1564063835190"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1564063835190",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_3_1564063835190",
+      "previous_sibling": "node_19_1564063835190"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1564063835190",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_19_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_95_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_98_1564063718469",
+      "previous_sibling": "handler_97_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_95_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_99_1564063718469",
+      "previous_sibling": "handler_98_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_95_1564063718469",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_97_1564063718469",
+      "previous_sibling": "handler_96_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_95_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_96_1564063718469"
+    },
+    {
+      "type": "standard",
+      "title": "interested in savings accont",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you an existing customer of Eidiko Bank"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1573231418683",
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_4_1573233619822"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_35_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_39_1564062995141",
+      "previous_sibling": "handler_38_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_35_1564062995141",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_37_1564062995141",
+      "previous_sibling": "handler_36_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_35_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_38_1564062995141",
+      "previous_sibling": "handler_37_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_35_1564062995141",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_36_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1564062995141",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_22_1564062995141",
+      "previous_sibling": "handler_21_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_20_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_24_1564062995141",
+      "previous_sibling": "handler_23_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_20_1564062995141",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_23_1564062995141",
+      "previous_sibling": "handler_22_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_20_1564062995141",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_21_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1563877895180",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1563877895180",
+      "previous_sibling": "handler_4_1563877895180"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1563877895180",
+      "context": {
+        "person": "@sys-person"
+      },
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_4_1563877895180"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_28_1563880453039",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_31_1563880453039",
+      "previous_sibling": "handler_30_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1563880453039",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_30_1563880453039",
+      "previous_sibling": "handler_29_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_28_1563880453039",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_32_1563880453039",
+      "previous_sibling": "handler_31_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_28_1563880453039",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_29_1563880453039"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_32_1564063902754",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_51_1564063902755",
+      "previous_sibling": "node_33_1564063902755"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1564063902754",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_62_1564063902755",
+      "previous_sibling": "node_51_1564063902755"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_32_1564063902754",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_33_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_11_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_14_1564063835190",
+      "previous_sibling": "handler_13_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_11_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_15_1564063835190",
+      "previous_sibling": "handler_14_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1564063835190",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_13_1564063835190",
+      "previous_sibling": "handler_12_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_11_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_12_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_88_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_92_1564064042429",
+      "previous_sibling": "handler_91_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_88_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_91_1564064042429",
+      "previous_sibling": "handler_90_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_88_1564064042429",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_90_1564064042429",
+      "previous_sibling": "handler_89_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_88_1564064042429",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_89_1564064042429"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_76_1564063718468",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_85_1564063718469",
+      "previous_sibling": "slot_80_1564063718469"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_76_1564063718468",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_80_1564063718469",
+      "previous_sibling": "slot_77_1564063718469"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_76_1564063718468",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_77_1564063718469",
+      "previous_sibling": "node_93_1564063718469"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_76_1564063718468",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_90_1564063718469",
+      "previous_sibling": "slot_85_1564063718469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_76_1564063718468",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_93_1564063718469"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_63_1564064042426",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_82_1564064042429",
+      "previous_sibling": "node_64_1564064042428"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_63_1564064042426",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_93_1564064042429",
+      "previous_sibling": "node_82_1564064042429"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_63_1564064042426",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_64_1564064042428"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_68_1564063320281",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_70_1564063320281",
+      "previous_sibling": "handler_69_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_68_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_72_1564063320281",
+      "previous_sibling": "handler_71_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_68_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_71_1564063320281",
+      "previous_sibling": "handler_70_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_68_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_69_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1564062995141",
+      "context": {
+        "credit_card_family": "@credit_card_family:(Premium cards)"
+      },
+      "metadata": {},
+      "conditions": "@credit_card_family:(Premium cards)",
+      "event_name": "input",
+      "dialog_node": "handler_26_1564062995141",
+      "previous_sibling": "handler_27_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "please enter the card family type which you have choosen"
+      },
+      "parent": "slot_25_1564062995141",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_27_1564062995141"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1564063835190",
+      "context": {
+        "Cust_id": "@customer_ID"
+      },
+      "metadata": {},
+      "conditions": "@customer_ID",
+      "event_name": "input",
+      "dialog_node": "handler_28_1564063835190",
+      "previous_sibling": "handler_27_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_26_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_30_1564063835190",
+      "previous_sibling": "handler_29_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_26_1564063835190",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_29_1564063835190",
+      "previous_sibling": "handler_28_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_26_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_27_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_85_1564063718469",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_87_1564063718469",
+      "previous_sibling": "handler_86_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_85_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_89_1564063718469",
+      "previous_sibling": "handler_88_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_85_1564063718469",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_88_1564063718469",
+      "previous_sibling": "handler_87_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_85_1564063718469",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_86_1564063718469"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_51_1564063902755",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_57_1564063902755",
+      "previous_sibling": "slot_52_1564063902755"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_51_1564063902755",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_52_1564063902755"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1564062995138",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_40_1564062995141",
+      "previous_sibling": "node_29_1564062995141"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1564062995138",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_29_1564062995141",
+      "previous_sibling": "node_11_1564062995140"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              },
+              {
+                "text": "resul"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1564062995138",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_11_1564062995140"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_83_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_86_1564064042429",
+      "previous_sibling": "handler_85_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_83_1564064042429",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_87_1564064042429",
+      "previous_sibling": "handler_86_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_83_1564064042429",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_85_1564064042429",
+      "previous_sibling": "handler_84_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_83_1564064042429",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_84_1564064042429"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_94_1564063718469",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_100_1564063718469",
+      "previous_sibling": "slot_95_1564063718469"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_94_1564063718469",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_95_1564063718469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_53_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_57_1564063320281",
+      "previous_sibling": "handler_56_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_53_1564063320281",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_55_1564063320281",
+      "previous_sibling": "handler_54_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_53_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_56_1564063320281",
+      "previous_sibling": "handler_55_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_53_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_54_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_34_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_36_1564063902755",
+      "previous_sibling": "handler_35_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_34_1564063902755",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_35_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1563880453039",
+      "context": {
+        "number": "@mobile"
+      },
+      "metadata": {},
+      "conditions": "@mobile",
+      "event_name": "input",
+      "dialog_node": "handler_25_1563880453039",
+      "previous_sibling": "handler_24_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_23_1563880453039",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_27_1563880453039",
+      "previous_sibling": "handler_26_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_23_1563880453039",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_26_1563880453039",
+      "previous_sibling": "handler_25_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_23_1563880453039",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_48_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_52_1564063320281",
+      "previous_sibling": "handler_51_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_48_1564063320281",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_51_1564063320281",
+      "previous_sibling": "handler_50_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_48_1564063320281",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_50_1564063320281",
+      "previous_sibling": "handler_49_1564063320281"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_48_1564063320281",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_49_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1563880453033",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_28_1563880453039",
+      "previous_sibling": "slot_23_1563880453039"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1563880453033",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_23_1563880453039"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1563877927779",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_7_1563877927779",
+      "previous_sibling": "handler_8_1563877927779"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_6_1563877927779",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1563878026611",
+      "previous_sibling": "handler_7_1563877927779"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_6_1563877927779",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1563878026611",
+      "previous_sibling": "handler_9_1563878026611"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_6_1563877927779",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1563877927779"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_37_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_41_1564063902755",
+      "previous_sibling": "handler_40_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The mobile number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_37_1564063902755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number&& input.text.find('\\d{11}')",
+      "event_name": "filled",
+      "dialog_node": "handler_40_1564063902755",
+      "previous_sibling": "handler_39_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_37_1564063902755",
+      "context": {
+        "mobile_number": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_39_1564063902755",
+      "previous_sibling": "handler_38_1564063902755"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your mobile number"
+      },
+      "parent": "slot_37_1564063902755",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_38_1564063902755"
+    },
+    {
+      "type": "standard",
+      "title": "not at all intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1564063835187",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:nothing",
+      "dialog_node": "node_31_1564063835190",
+      "previous_sibling": "node_20_1564063835190"
+    },
+    {
+      "type": "standard",
+      "title": "card not intrested",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1564063835187",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563808174219"
+      },
+      "conditions": "@intrest:no",
+      "dialog_node": "node_20_1564063835190",
+      "previous_sibling": "node_2_1564063835190"
+    },
+    {
+      "type": "frame",
+      "title": "card intrested",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your details exist in our database we will send information about the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              },
+              {
+                "text": "customer id is $cust_id"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1564063835187",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "person": "$person",
+            "cust_id": "$cust_id",
+            "mobile_number": "$mobile_number",
+            "credit_card_family": "$credit_card_family"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_68_1561469546929"
+      },
+      "conditions": "@intrest:yes",
+      "dialog_node": "node_2_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your name"
+      },
+      "parent": "slot_3_1564063835190",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1564063835190",
+      "previous_sibling": "handler_4_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1564063835190",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_4_1564063835190"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1573234219567",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1573234219569",
+      "previous_sibling": "handler_1_1573234219569"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1573234219567",
+      "context": {},
+      "conditions": "@",
+      "event_name": "input",
+      "dialog_node": "handler_1_1573234219569"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_44_1564063320281",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_48_1564063320281",
+      "previous_sibling": "slot_45_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_44_1564063320281",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_45_1564063320281",
+      "previous_sibling": "node_61_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_44_1564063320281",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_58_1564063320281",
+      "previous_sibling": "slot_53_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_44_1564063320281",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_53_1564063320281",
+      "previous_sibling": "slot_48_1564063320281"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_44_1564063320281",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_61_1564063320281"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_64_1564064042428",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$cust_id",
+      "dialog_node": "slot_73_1564064042429",
+      "previous_sibling": "slot_68_1564064042428"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_64_1564064042428",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$mobile_number",
+      "dialog_node": "slot_68_1564064042428",
+      "previous_sibling": "slot_65_1564064042428"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_64_1564064042428",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_65_1564064042428",
+      "previous_sibling": "node_81_1564064042429"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_64_1564064042428",
+      "metadata": {},
+      "variable": "$credit_card_family",
+      "dialog_node": "slot_78_1564064042429",
+      "previous_sibling": "slot_73_1564064042429"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "we will send the credit card details to the mobile number"
+              },
+              {
+                "text": "Your credit would be sent to the registered address with in 5 working business days"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_64_1564064042428",
+      "actions": [
+        {
+          "name": "sarathchandraoruganti@gmail.com_dev/actions/credit_card_request",
+          "type": "server",
+          "parameters": {
+            "aadhaar": "$aadhaar",
+            "account_num": "$acc_number"
+          },
+          "credentials": "$private.my_credentials",
+          "result_variable": "$result"
+        }
+      ],
+      "context": {
+        "private": {
+          "my_credentials": {
+            "user": "dd87f255-2929-4591-bab2-9d5ac980db60",
+            "password": "wSBdEPyCgPEAJs7q2AXExetYBcbXqEVxX3HFm67jTXsBbYSRm6qWzhdiwy7THHem"
+          }
+        }
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_81_1564064042429"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_11_1563878238011",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number",
+      "event_name": "nomatch",
+      "dialog_node": "handler_15_1563878314488",
+      "previous_sibling": "handler_14_1563878314488"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1563878238011",
+      "context": {
+        "cust_id": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_12_1563878238011",
+      "previous_sibling": "handler_13_1563878238011"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "The Customer Identification number which you have entered is incorrect"
+          ]
+        }
+      },
+      "parent": "slot_11_1563878238011",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number && input.text.find('\\d{9}')",
+      "event_name": "filled",
+      "dialog_node": "handler_14_1563878314488",
+      "previous_sibling": "handler_12_1563878238011"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your customer ID"
+      },
+      "parent": "slot_11_1563878238011",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_13_1563878238011"
+    },
+    {
+      "type": "standard",
+      "title": "Savings Account ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Experience the convenience of banking from anywhere and anytime with a Savings Bank account from EIDIKO. In addition to the largest branch and ATM network, our Internet Banking, Mobile Banking,Voice-Bots and Telephone Banking platforms will ensure that you can access your account 24x7. Apply now.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1571164684908",
+      "conditions": "@accountType:savings",
+      "dialog_node": "node_3_1573231418683"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_82_1564064042429",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Cust_id",
+      "dialog_node": "slot_88_1564064042429",
+      "previous_sibling": "slot_83_1564064042429"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_82_1564064042429",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$number",
+      "dialog_node": "slot_83_1564064042429"
+    },
+    {
+      "type": "standard",
+      "title": "thinava ra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ledhu pedathava"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1572924893425",
+      "conditions": "@srujana:(thinava ra)",
+      "dialog_node": "node_9_1572925061967",
+      "previous_sibling": "node_10_1572925021870"
+    },
+    {
+      "type": "standard",
+      "title": "nanu vodilesthunava",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "haa vodilesthuna, dengey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1572924893425",
+      "conditions": "@srujana:(nanu vodilesthunava)",
+      "dialog_node": "node_10_1572925021870"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1564384722750"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi,  I can assist you in opening an account in Eidiko bank. Please enter your query here."
+              },
+              {
+                "text": "Hey"
+              },
+              {
+                "text": "Hello"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_14_1561455003992",
+      "previous_sibling": "node_1_1564142933796"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's my pleasure. Is there any thing that I can help you out?"
+              },
+              {
+                "text": "Your Welcome. Is there any thing that I can help you out?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_68_1561469546929",
+      "previous_sibling": "node_1_1563808174219"
+    },
+    {
+      "type": "standard",
+      "title": "Bank Account Creation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for choosing our bank"
+              },
+              {
+                "text": "Please select the account types listed below"
+              },
+              {
+                "text": "1. Savings"
+              },
+              {
+                "text": "2. Current"
+              },
+              {
+                "text": "3. Child Account"
+              },
+              {
+                "text": "4. Joint"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#apply_for_account",
+      "dialog_node": "node_7_1571164684908",
+      "previous_sibling": "node_7_1573231377404"
+    },
+    {
+      "type": "standard",
+      "title": "Bank accounts that are provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "EIDIKO BANK provides a wide range of savings account schemes which have unique features and privileges, that can be availed in a quick and convenient manner."
+              },
+              {
+                "text": "The savings account provides world class banking facilities and services."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "List of account types that are provided",
+            "options": [
+              {
+                "label": "savings",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "description": "please slect the options for brief overview",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1571164684908"
+      },
+      "conditions": "#types_of_bank_accounts_question",
+      "dialog_node": "node_1_1564142933796",
+      "previous_sibling": "node_3_1564141152346"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_7_1573231377404",
+      "previous_sibling": "node_14_1561455003992"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "thank you for showing interest in our credit card"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#exit",
+      "dialog_node": "node_1_1564384722750",
+      "previous_sibling": "node_68_1561469546929"
+    },
+    {
+      "type": "standard",
+      "title": "About the bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! You are talking with a bot."
+              },
+              {
+                "text": "I am an Artificial Intelligence of the bank. "
+              },
+              {
+                "text": "Please ask me your query"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot && #General_About_You",
+      "dialog_node": "node_2_1564140808542",
+      "previous_sibling": "node_1_1572713772628"
+    },
+    {
+      "type": "standard",
+      "title": "srujana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@srujana",
+      "dialog_node": "node_7_1572924893425",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "dumb",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please talk politely."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#dumb",
+      "dialog_node": "node_10_1572714040591",
+      "previous_sibling": "node_3_1572924646726"
+    },
+    {
+      "type": "standard",
+      "title": "bot capabilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1.  I can assist ypu in Creating a bank account"
+              },
+              {
+                "text": "2. I can Say your bank account balance"
+              },
+              {
+                "text": "3. I can issue a debit card if you already have a bank account"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_3_1564141152346",
+      "previous_sibling": "node_2_1564140808542"
+    },
+    {
+      "type": "standard",
+      "title": "capital of India",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't know yours but, mine is  Delhi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#capital_of_country",
+      "dialog_node": "node_1_1572713772628",
+      "previous_sibling": "node_10_1572714040591"
+    },
+    {
+      "type": "standard",
+      "title": "Credit card application",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Credit Cars are a must-have accessory for anyone with a reasonable level of disposable income."
+              },
+              {
+                "text": "Credit Cards come in many varieties -- from basic Credit Cards, with reasonable credit limits and plain vanilla features, to super premium cards that are a great accessory to a high-flying lifestyle. There are cards for your regular salaried people, the frequent flyers, students, the fun-loving crowd, the cautious savers, and so on."
+              },
+              {
+                "text": "Different Credit Cards offer varying features and choosing one will depend on your needs and how you expect to use it. For example, if you are a frequent flyer, it will help if you have a Credit Card co-branded with an airline."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "Select which type of credit card you want to take",
+            "options": [
+              {
+                "label": "Regular",
+                "value": {
+                  "input": {
+                    "text": "Regular"
+                  }
+                }
+              },
+              {
+                "label": "Premium",
+                "value": {
+                  "input": {
+                    "text": "Premium"
+                  }
+                }
+              },
+              {
+                "label": "Co-branded cards",
+                "value": {
+                  "input": {
+                    "text": "co-branded"
+                  }
+                }
+              },
+              {
+                "label": "Commercial or business cards",
+                "value": {
+                  "input": {
+                    "text": "commercial"
+                  }
+                }
+              },
+              {
+                "label": "CashBack cards",
+                "value": {
+                  "input": {
+                    "text": "cashback"
+                  }
+                }
+              },
+              {
+                "label": "Secured Cards",
+                "value": {
+                  "input": {
+                    "text": "Secured"
+                  }
+                }
+              },
+              {
+                "label": "Prepaid Credit Cards",
+                "value": {
+                  "input": {
+                    "text": "prepaid"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#apply_card",
+      "dialog_node": "node_1_1563808174219",
+      "previous_sibling": "node_7_1571164684908"
+    },
+    {
+      "type": "standard",
+      "title": "bad words",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "dengey badacow, ne ayya"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#bad_words",
+      "dialog_node": "node_3_1572924646726",
+      "previous_sibling": "node_7_1572924893425"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, this is  <strong>EIDIKO</strong>  banking assistant.</br>How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "bd0907c4-1ba7-4600-b5ce-aa73bccae2d6",
+  "counterexamples": [
+    {
+      "text": "existing user"
+    },
+    {
+      "text": "Premium"
+    }
+  ],
+  "system_settings": {
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
