@@ -8,6 +8,7 @@ import com.eidiko.bank.credit.Savein_DB;
 public class CreditCardCreationService {
 
 	String CardNumber="",cvv="",Date="";
+	@SuppressWarnings("unused")
 	public CreditCardCreationService(String Cust_id, String mobile_number, String person,String credit_card_family) {
 		// System.out.println("Entered in to constructor");
 		//System.out.println("person value:"+person);
