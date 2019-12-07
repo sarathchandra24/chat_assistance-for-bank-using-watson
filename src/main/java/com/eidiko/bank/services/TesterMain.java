@@ -7,6 +7,7 @@ import com.eidiko.bank.credit.GenerateCVV;
 import com.eidiko.bank.credit.Savein_DB;
 
 public class TesterMain {
+	@SuppressWarnings("unused")
 	public static void main(String ar[]) {
 		String Cust_id = "";
 		String credit_card_family="Co-branded cards:(Co-branded cards)";
